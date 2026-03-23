@@ -5,19 +5,43 @@
 
 /* main */
 
+h1 {
+    text-align: center;
+    margin-top: 50px;
+}
+
 .main-container {
     display: grid;
     justify-content: center;
-    margin-top: 200px;
+    margin-top: 180px;
     align-items: center;
+    gap: 1rem;
 }
 
 .box {
     height: 100px;
     width: 100px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-size: 2rem;
 }
 
 .common {
     display: flex;
     flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.reset {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+#reset-btn {
+    height: 30px;
+    width: 80px;
 }
