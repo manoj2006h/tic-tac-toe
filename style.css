@@ -1,0 +1,23 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* main */
+
+.main-container {
+    display: grid;
+    justify-content: center;
+    margin-top: 200px;
+    align-items: center;
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+}
+
+.common {
+    display: flex;
+    flex-wrap: wrap;
+}
